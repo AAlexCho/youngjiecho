@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/youngjiecho/static/css/main.614edaf1.chunk.css",
-    "main.js": "/youngjiecho/static/js/main.fc7609ba.chunk.js",
-    "main.js.map": "/youngjiecho/static/js/main.fc7609ba.chunk.js.map",
+    "main.js": "/youngjiecho/static/js/main.9ed0cd5b.chunk.js",
+    "main.js.map": "/youngjiecho/static/js/main.9ed0cd5b.chunk.js.map",
     "runtime-main.js": "/youngjiecho/static/js/runtime-main.435314b9.js",
     "runtime-main.js.map": "/youngjiecho/static/js/runtime-main.435314b9.js.map",
     "static/js/2.a1c5acb3.chunk.js": "/youngjiecho/static/js/2.a1c5acb3.chunk.js",
     "static/js/2.a1c5acb3.chunk.js.map": "/youngjiecho/static/js/2.a1c5acb3.chunk.js.map",
     "index.html": "/youngjiecho/index.html",
-    "precache-manifest.1b620c3a772450beed25ec8d89e2c5af.js": "/youngjiecho/precache-manifest.1b620c3a772450beed25ec8d89e2c5af.js",
+    "precache-manifest.015a47dd51ca6e758450ef0538d94a5d.js": "/youngjiecho/precache-manifest.015a47dd51ca6e758450ef0538d94a5d.js",
     "service-worker.js": "/youngjiecho/service-worker.js",
     "static/css/main.614edaf1.chunk.css.map": "/youngjiecho/static/css/main.614edaf1.chunk.css.map",
     "static/js/2.a1c5acb3.chunk.js.LICENSE.txt": "/youngjiecho/static/js/2.a1c5acb3.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.435314b9.js",
     "static/js/2.a1c5acb3.chunk.js",
     "static/css/main.614edaf1.chunk.css",
-    "static/js/main.fc7609ba.chunk.js"
+    "static/js/main.9ed0cd5b.chunk.js"
   ]
 }
