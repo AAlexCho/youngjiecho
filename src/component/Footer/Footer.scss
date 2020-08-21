@@ -1,0 +1,16 @@
+@import "src/constants/variables";
+
+.footer {
+  width: 100%;
+  background: $footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+}
+.copyright {
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  color: $navText;
+}
