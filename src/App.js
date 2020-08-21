@@ -15,7 +15,7 @@ function App() {
       <StickyContainer>
         <Switch>
           <Route
-            path="/"
+            path="/youngjiecho"
             exact={true}
             render={() => {
               return (
@@ -25,7 +25,7 @@ function App() {
           />
           <Route
             exact
-            path="/projects/:project_id"
+            path="/youngjiecho/projects/:project_id"
             render={(routeProps) => {
               if (
                 parseInt(routeProps.match.params.project_id) >= 0 &&
