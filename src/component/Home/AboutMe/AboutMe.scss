@@ -1,0 +1,81 @@
+@import "src/constants/variables";
+
+.aboutMe {
+  display: flex;
+  .aboutMeIconSection {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    .aboutMeIcon {
+      img {
+        height: 60px;
+      }
+    }
+  }
+  .aboutMeTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutMeTitle1 {
+    font-size: 48px;
+  }
+  .aboutMeTitle2 {
+    font-size: 60px;
+  }
+  .aboutMeQASection {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    .aboutMeQA {
+      display: flex;
+      flex-direction: column;
+      font-size: 24px;
+      margin-bottom: 20px;
+      .aboutMeQ {
+        font-weight: 400;
+      }
+      .aboutMeA {
+        font-weight: 600;
+      }
+    }
+  }
+  .aboutMeTextDay {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    font-size: 48px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+    color: $textDay;
+  }
+  .aboutMeTextNight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    font-size: 48px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+    color: $textNight;
+  }
+  .aboutMePhoto {
+    flex: 1;
+    background: $photoBG;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 92vh;
+    }
+  }
+}

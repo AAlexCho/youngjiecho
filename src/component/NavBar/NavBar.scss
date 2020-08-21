@@ -1,0 +1,55 @@
+@import "src/constants/variables";
+
+.navBar {
+  z-index: 1;
+  background-color: $navBar;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .toggle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .toggleImg {
+      height: 50px;
+      filter: drop-shadow(2px 2px 2px $bgNight);
+    }
+    .clickMe {
+      height: 40px;
+      cursor: default;
+    }
+  }
+  .logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLinks {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+
+    .navLink {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-family: "Source Code Pro", monospace;
+      font-weight: 600;
+      color: $navText;
+      a {
+        color: $navText;
+        text-decoration: none;
+      }
+      p {
+        cursor: pointer;
+      }
+    }
+  }
+  img {
+    cursor: pointer;
+    height: 80px;
+  }
+}

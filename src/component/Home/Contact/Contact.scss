@@ -1,0 +1,40 @@
+@import "src/constants/variables";
+
+.contactNight {
+  background: $projectNight;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: center;
+  width: 100%;
+  height: 88.5vh;
+}
+.contactDay {
+  background: $projectDay;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: center;
+  width: 100%;
+  height: 88.5vh;
+}
+.contactImage {
+  display: flex;
+  justify-content: center;
+  img {
+    height: 500px;
+  }
+}
+.contactIconSection {
+  display: flex;
+  width: 25%;
+
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  .contactIcon {
+    img {
+      height: 60px;
+    }
+  }
+}

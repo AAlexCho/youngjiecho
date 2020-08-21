@@ -1,0 +1,79 @@
+@import "src/constants/variables";
+
+.projectGalleryDay {
+  background: $projectDay;
+  height: 92vh;
+}
+.projectGalleryNight {
+  background: $projectNight;
+  height: 92vh;
+}
+.projectSection {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin: auto;
+  height: 80vh;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+.titleSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 52px;
+  text-align: center;
+  .titleNight {
+    color: $textNight;
+  }
+  .titleDay {
+    color: $textDay;
+  }
+}
+.projectElement {
+  position: relative;
+}
+.overlayedImage {
+  display: block;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.1s ease-in;
+  background-color: rgba(104, 62, 48, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 70px;
+    opacity: 1;
+  }
+  p {
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
