@@ -44,25 +44,16 @@ function App() {
             }}
           />
           <Route
-            exact
             path="/youngjiecho/projects/:project_id"
             render={(routeProps) => {
-              if (
-                parseInt(routeProps.match.params.project_id) >= 0 &&
-                parseInt(routeProps.match.params.project_id) <
-                  ProjectData.length
-              ) {
-                return (
-                  <Project
-                    {...routeProps}
-                    id={routeProps.match.params.project_id}
-                    mode={mode}
-                    toggleMode={toggleMode}
-                  />
-                );
-              } else {
-                myHistory.push("/404");
-              }
+              return (
+                <Project
+                  {...routeProps}
+                  id={routeProps.match.params.project_id}
+                  mode={mode}
+                  toggleMode={toggleMode}
+                />
+              );
             }}
           />
           {/* error pages */}
