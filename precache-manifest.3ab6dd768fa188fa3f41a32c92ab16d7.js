@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d82c2c16b165fd636d4f101721359af9",
+    "revision": "281a2e1d56f29defd23c33dc9b8e35f7",
     "url": "/youngjiecho/index.html"
   },
   {
-    "revision": "bb26d33836e323cc1f2f",
+    "revision": "2970932c625e9802cc6f",
     "url": "/youngjiecho/static/css/main.83e8abae.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youngjiecho/static/js/2.7d736666.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb26d33836e323cc1f2f",
-    "url": "/youngjiecho/static/js/main.45af0a3f.chunk.js"
+    "revision": "2970932c625e9802cc6f",
+    "url": "/youngjiecho/static/js/main.89eb3928.chunk.js"
   },
   {
     "revision": "a6f09d8ea53c641fcb81",
