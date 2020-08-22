@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/youngjiecho/static/css/main.614edaf1.chunk.css",
-    "main.js": "/youngjiecho/static/js/main.9ed0cd5b.chunk.js",
-    "main.js.map": "/youngjiecho/static/js/main.9ed0cd5b.chunk.js.map",
+    "main.css": "/youngjiecho/static/css/main.83e8abae.chunk.css",
+    "main.js": "/youngjiecho/static/js/main.45af0a3f.chunk.js",
+    "main.js.map": "/youngjiecho/static/js/main.45af0a3f.chunk.js.map",
     "runtime-main.js": "/youngjiecho/static/js/runtime-main.435314b9.js",
     "runtime-main.js.map": "/youngjiecho/static/js/runtime-main.435314b9.js.map",
-    "static/js/2.a1c5acb3.chunk.js": "/youngjiecho/static/js/2.a1c5acb3.chunk.js",
-    "static/js/2.a1c5acb3.chunk.js.map": "/youngjiecho/static/js/2.a1c5acb3.chunk.js.map",
+    "static/js/2.7d736666.chunk.js": "/youngjiecho/static/js/2.7d736666.chunk.js",
+    "static/js/2.7d736666.chunk.js.map": "/youngjiecho/static/js/2.7d736666.chunk.js.map",
     "index.html": "/youngjiecho/index.html",
-    "precache-manifest.015a47dd51ca6e758450ef0538d94a5d.js": "/youngjiecho/precache-manifest.015a47dd51ca6e758450ef0538d94a5d.js",
+    "precache-manifest.5688a20b8c9863ebd765a41e3a83b41d.js": "/youngjiecho/precache-manifest.5688a20b8c9863ebd765a41e3a83b41d.js",
     "service-worker.js": "/youngjiecho/service-worker.js",
-    "static/css/main.614edaf1.chunk.css.map": "/youngjiecho/static/css/main.614edaf1.chunk.css.map",
-    "static/js/2.a1c5acb3.chunk.js.LICENSE.txt": "/youngjiecho/static/js/2.a1c5acb3.chunk.js.LICENSE.txt",
+    "static/css/main.83e8abae.chunk.css.map": "/youngjiecho/static/css/main.83e8abae.chunk.css.map",
+    "static/js/2.7d736666.chunk.js.LICENSE.txt": "/youngjiecho/static/js/2.7d736666.chunk.js.LICENSE.txt",
     "static/media/Alex.png": "/youngjiecho/static/media/Alex.f41ee8d1.png",
     "static/media/YoungJieChoResume.docx": "/youngjiecho/static/media/YoungJieChoResume.93a76eb6.docx",
     "static/media/contactMe.png": "/youngjiecho/static/media/contactMe.8bebc337.png",
     "static/media/github.png": "/youngjiecho/static/media/github.14263d25.png",
     "static/media/linkedin.png": "/youngjiecho/static/media/linkedin.ec07ab15.png",
     "static/media/moon.png": "/youngjiecho/static/media/moon.e5903307.png",
-    "static/media/youngjiecho.png": "/youngjiecho/static/media/youngjiecho.231b4f4a.png"
+    "static/media/youngjiecho1.png": "/youngjiecho/static/media/youngjiecho1.70422f2a.png",
+    "static/media/youngjiecho2.png": "/youngjiecho/static/media/youngjiecho2.80927fa4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.435314b9.js",
-    "static/js/2.a1c5acb3.chunk.js",
-    "static/css/main.614edaf1.chunk.css",
-    "static/js/main.9ed0cd5b.chunk.js"
+    "static/js/2.7d736666.chunk.js",
+    "static/css/main.83e8abae.chunk.css",
+    "static/js/main.45af0a3f.chunk.js"
   ]
 }
