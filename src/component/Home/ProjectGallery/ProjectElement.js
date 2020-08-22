@@ -6,7 +6,7 @@ import magnifyingGlass from "../../../assets/magnifyingGlass.png";
 const ProjectElement = (props) => {
   return (
     <div className="projectElement">
-      <Link to={"/projects/" + props.toProject}>
+      <Link to={"/youngjiecho/projects/" + props.toProject}>
         <img className="overlayedImage" src={props.img} alt="" />
         {props.isHovered ? (
           <div className="overlay">

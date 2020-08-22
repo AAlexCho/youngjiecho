@@ -2,11 +2,12 @@
 
 .aboutMe {
   display: flex;
+  height: 92vh;
   .aboutMeIconSection {
     display: flex;
     width: 50%;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     .aboutMeIcon {
       img {
         height: 60px;
@@ -28,12 +29,13 @@
   .aboutMeQASection {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     .aboutMeQA {
       display: flex;
       flex-direction: column;
-      font-size: 24px;
+      font-size: 20px;
       margin-bottom: 20px;
+      text-align: left;
       .aboutMeQ {
         font-weight: 400;
       }
@@ -73,7 +75,6 @@
     background: $photoBG;
     display: flex;
     justify-content: center;
-    align-items: center;
     img {
       height: 92vh;
     }

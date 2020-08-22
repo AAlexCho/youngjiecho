@@ -30,16 +30,20 @@ const NavBar = (props) => {
           <div className="toggle">
             <img
               className="toggleImg"
-              src={props.isDarkMode ? moon : sun}
+              src={props.mode === "dark" ? moon : sun}
               alt=""
-              onClick={() => props.setIsDarkMode(!props.isDarkMode)}
+              onClick={() => props.toggleMode()}
             />
             <img className="clickMe" src={clickMe} alt="" />
           </div>
           <div className="logo">
             {props.currentPage === "project" ? (
-              <Link to="/">
-                <img src={logo} alt=""></img>
+              <Link to="/youngjiecho">
+                <img
+                  onClick={() => scrollToTheElement("")}
+                  src={logo}
+                  alt=""
+                ></img>
               </Link>
             ) : (
               <img
@@ -49,22 +53,24 @@ const NavBar = (props) => {
               ></img>
             )}
           </div>
-          <div className="navLinks">
-            <div className="navLink">
-              <a href={Resume} download>
-                Resume
-              </a>
+
+          {props.currentPage === "project" ? (
+            <div className="navLinks" />
+          ) : (
+            <div className="navLinks">
+              <div className="navLink">
+                <a href={Resume} download>
+                  Resume
+                </a>
+              </div>
+              <div className="navLink">
+                <p onClick={() => scrollToTheElement("Projects")}>Projects</p>
+              </div>
+              <div className="navLink">
+                <p onClick={() => scrollToTheElement("Contact")}>Contact</p>
+              </div>
             </div>
-            <div className="navLink">
-              <p onClick={() => scrollToTheElement("Projects")}>Projects</p>
-            </div>
-            <div className="navLink">
-              <p onClick={() => scrollToTheElement("Skills")}>Skills</p>
-            </div>
-            <div className="navLink">
-              <p onClick={() => scrollToTheElement("Contact")}>Contact</p>
-            </div>
-          </div>
+          )}
         </div>
       )}
     </Sticky>

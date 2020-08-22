@@ -9,12 +9,9 @@ import Resume from "../../../assets/YoungJieChoResume.docx";
 
 const Contact = (props) => {
   return (
-    <div
-      id="Contact"
-      className={props.isDarkMode ? "contactNight" : "contactDay"}
-    >
+    <div id="Contact" className="contact">
       <div className="titleSection">
-        <div className={props.isDarkMode ? "titleNight" : "titleDay"}>
+        <div className={props.mode === "dark" ? "titleNight" : "titleDay"}>
           Let's Chat!
         </div>
       </div>
