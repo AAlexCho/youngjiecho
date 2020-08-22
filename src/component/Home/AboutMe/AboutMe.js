@@ -1,5 +1,5 @@
 import React from "react";
-import myPhoto from "../../../assets/youngjiecho.png";
+import ReactHoverObserver from "react-hover-observer";
 import "./AboutMe.scss";
 import QAtext from "../../../constants/QAtext";
 import github from "../../../assets/github.png";
@@ -7,13 +7,16 @@ import linkedin from "../../../assets/linkedin.png";
 import gmail from "../../../assets/gmail.png";
 import resume from "../../../assets/resume.png";
 import Resume from "../../../assets/YoungJieChoResume.docx";
+import RandomPhoto from "./RandomPhoto";
 
 const AboutMe = (props) => {
   return (
     <div id="AboutMe" className="aboutMe">
       <div
         id="AboutMe"
-        className={props.isDarkMode ? "aboutMeTextNight" : "aboutMeTextDay"}
+        className={
+          props.mode === "dark" ? "aboutMeTextNight" : "aboutMeTextDay"
+        }
       >
         <div className="aboutMeTitle">
           <div className="aboutMeTitle1">
@@ -63,7 +66,9 @@ const AboutMe = (props) => {
         </div>
       </div>
       <div className="aboutMePhoto">
-        <img src={myPhoto} alt="" />
+        <ReactHoverObserver>
+          {({ isHovering }) => <RandomPhoto isHovered={isHovering} />}
+        </ReactHoverObserver>
       </div>
     </div>
   );

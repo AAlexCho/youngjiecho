@@ -6,7 +6,7 @@ const QAtext = [
   {
     question: "So what do you do?",
     answer:
-      "I’m a Software Developer who loves learning new things and enjoys eating spicy foods.",
+      "I’m a Software Developer who loves learning new things and eating spicy foods.",
   },
   {
     question: "Are you open to job opportunities?",

@@ -1,16 +1,6 @@
 @import "src/constants/variables";
 
-.contactNight {
-  background: $projectNight;
-  display: flex;
-  flex-direction: column;
-  align-items: space-evenly;
-  justify-content: center;
-  width: 100%;
-  height: 88.5vh;
-}
-.contactDay {
-  background: $projectDay;
+.contact {
   display: flex;
   flex-direction: column;
   align-items: space-evenly;

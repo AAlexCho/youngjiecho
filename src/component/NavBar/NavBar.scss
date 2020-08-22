@@ -14,6 +14,7 @@
     .toggleImg {
       height: 50px;
       filter: drop-shadow(2px 2px 2px $bgNight);
+      cursor: pointer;
     }
     .clickMe {
       height: 40px;
@@ -29,8 +30,7 @@
   .navLinks {
     flex: 1;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
     .navLink {
       display: flex;
       justify-content: center;
