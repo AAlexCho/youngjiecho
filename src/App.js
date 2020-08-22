@@ -37,14 +37,14 @@ function App() {
       <StickyContainer>
         <Switch>
           <Route
-            path="/youngjiecho"
+            path="/"
             exact={true}
             render={() => {
               return <Home mode={mode} toggleMode={toggleMode} />;
             }}
           />
           <Route
-            path="/youngjiecho/projects/:project_id"
+            path="/projects/:project_id"
             render={(routeProps) => {
               return (
                 <Project

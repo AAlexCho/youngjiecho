@@ -38,7 +38,7 @@ const NavBar = (props) => {
           </div>
           <div className="logo">
             {props.currentPage === "project" ? (
-              <Link to="/youngjiecho">
+              <Link to="/">
                 <img
                   onClick={() => scrollToTheElement("")}
                   src={logo}
