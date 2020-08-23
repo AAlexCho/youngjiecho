@@ -13,4 +13,8 @@
   font-family: "Source Code Pro", monospace;
   font-weight: 700;
   color: $navText;
+  @media only screen and (max-width: 840px) {
+    font-weight: 500;
+    font-size: 12px;
+  }
 }

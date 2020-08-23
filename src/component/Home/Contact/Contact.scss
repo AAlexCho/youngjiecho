@@ -3,28 +3,41 @@
 .contact {
   display: flex;
   flex-direction: column;
-  align-items: space-evenly;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   width: 100%;
-  height: 88.5vh;
+  height: 88vh;
 }
 .contactImage {
   display: flex;
   justify-content: center;
   img {
     height: 500px;
+    @media only screen and (max-width: 840px) {
+      height: 250px;
+    }
+    @media only screen and (max-width: 380px) {
+      height: 200px;
+    }
+    @media only screen and (max-width: 300px) {
+      height: 150px;
+    }
   }
 }
 .contactIconSection {
   display: flex;
   width: 25%;
-
   align-items: center;
   justify-content: space-evenly;
-  margin: auto;
+  @media only screen and (max-width: 840px) {
+    width: 60%;
+  }
   .contactIcon {
     img {
       height: 60px;
+      @media only screen and (max-width: 840px) {
+        height: 40px;
+      }
     }
   }
 }
