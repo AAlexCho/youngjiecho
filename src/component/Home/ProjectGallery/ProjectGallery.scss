@@ -2,20 +2,18 @@
 
 .projectGalleryDay {
   background: $projectDay;
-  height: 92vh;
 }
 .projectGalleryNight {
   background: $projectNight;
-  height: 92vh;
 }
 .projectSection {
   display: flex;
   flex-flow: row wrap;
   width: 80%;
   margin: auto;
-  height: 80vh;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding-bottom: 15px;
 }
 .titleSection {
   padding-top: 30px;
@@ -24,6 +22,9 @@
   font-weight: 600;
   font-size: 52px;
   text-align: center;
+  @media only screen and (max-width: 840px) {
+    font-size: 36px;
+  }
   .titleNight {
     color: $textNight;
   }
@@ -33,12 +34,23 @@
 }
 .projectElement {
   position: relative;
+  padding: 10px;
 }
 .overlayedImage {
   display: block;
   width: 400px;
   height: 250px;
   object-fit: cover;
+  @media only screen and (max-width: 840px) {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+  }
+  @media only screen and (max-width: 350px) {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+  }
 }
 .overlay {
   position: absolute;

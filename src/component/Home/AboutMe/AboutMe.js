@@ -36,7 +36,7 @@ const AboutMe = (props) => {
           ))}
         </div>
         <div className="aboutMeIconSection">
-          <a href={Resume} download className="contactIcon">
+          <a href={Resume} download className="aboutMeIcon">
             <img src={resume} alt="" />
           </a>
           <a
