@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { StickyContainer } from "react-sticky";
 
-import { Route, Switch, Redirect, useHistory } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Home from "./component/Home/Home";
 import Project from "./component/Project/Project";
-//import Error from "src/component/Error";
-import ProjectData from "./constants/ProjectData.js";
 import "./App.css";
 
 function App() {
-  const myHistory = useHistory();
   const themeType = {
     dark: "dark",
     light: "light",
@@ -56,10 +53,6 @@ function App() {
               );
             }}
           />
-          {/* error pages */}
-          {/* <Route path="/500" render={() => <Error err={500} />} />
-          <Route path="/404" render={() => <Error err={404} />} />
-          <Redirect to="/404" /> */}
         </Switch>
       </StickyContainer>
     </div>

@@ -6,7 +6,7 @@ import github from "../../../assets/github.png";
 import linkedin from "../../../assets/linkedin.png";
 import gmail from "../../../assets/gmail.png";
 import resume from "../../../assets/resume.png";
-import Resume from "../../../assets/YoungJieChoResume.docx";
+import Resume from "../../../assets/YoungJieChoResume.pdf";
 import RandomPhoto from "./RandomPhoto";
 
 const AboutMe = (props) => {
