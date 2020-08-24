@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a53576e0f2b1bbe84a062b9d2fb07c76",
+    "revision": "4950e3ca8b6b423b55841abe165ff20f",
     "url": "/youngjiecho/index.html"
   },
   {
-    "revision": "fb742b3d8bb0f0564519",
-    "url": "/youngjiecho/static/css/main.6014aec0.chunk.css"
+    "revision": "539c28c995fc8c229e58",
+    "url": "/youngjiecho/static/css/main.febf952c.chunk.css"
   },
   {
-    "revision": "b42ecd514c65ce2a74af",
-    "url": "/youngjiecho/static/js/2.1116010d.chunk.js"
+    "revision": "3b2281b238fcc0061047",
+    "url": "/youngjiecho/static/js/2.c4a86c70.chunk.js"
   },
   {
     "revision": "b882a56398ffd5f772193e17a68e4396",
-    "url": "/youngjiecho/static/js/2.1116010d.chunk.js.LICENSE.txt"
+    "url": "/youngjiecho/static/js/2.c4a86c70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb742b3d8bb0f0564519",
-    "url": "/youngjiecho/static/js/main.7e1e7938.chunk.js"
+    "revision": "539c28c995fc8c229e58",
+    "url": "/youngjiecho/static/js/main.a3953671.chunk.js"
   },
   {
     "revision": "a6f09d8ea53c641fcb81",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youngjiecho/static/media/Alex.f41ee8d1.png"
   },
   {
-    "revision": "93a76eb63141911221e3bc578aae1f32",
-    "url": "/youngjiecho/static/media/YoungJieChoResume.93a76eb6.docx"
+    "revision": "8046dcc57bce7366021725699026c6f4",
+    "url": "/youngjiecho/static/media/YoungJieChoResume.8046dcc5.pdf"
   },
   {
     "revision": "8bebc3374b48d30b9725388fd4859320",
