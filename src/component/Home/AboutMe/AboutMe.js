@@ -28,8 +28,8 @@ const AboutMe = (props) => {
           <div className="aboutMeTitle2">I'm Youngjie!</div>
         </div>
         <div className="aboutMeQASection">
-          {QAtext.map((qa) => (
-            <div className="aboutMeQA">
+          {QAtext.map((qa, index) => (
+            <div className="aboutMeQA" key={index}>
               <div className="aboutMeQ">Q.{qa.question}</div>
               <div className="aboutMeA">A.{qa.answer}</div>
             </div>

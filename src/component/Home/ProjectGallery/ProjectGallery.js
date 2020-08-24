@@ -21,7 +21,7 @@ const ProjectGallery = (props) => {
       <div className="projectSection">
         {ProjectData.map((project, index) =>
           index < ProjectData.length - 1 ? (
-            <ReactHoverObserver>
+            <ReactHoverObserver key={index}>
               {({ isHovering }) => (
                 <ProjectElement
                   isHovered={isHovering}
