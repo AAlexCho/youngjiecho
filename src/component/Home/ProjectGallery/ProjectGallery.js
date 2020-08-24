@@ -32,7 +32,7 @@ const ProjectGallery = (props) => {
               )}
             </ReactHoverObserver>
           ) : (
-            <a href={Resume} download>
+            <a href={Resume} download key={index}>
               <img
                 className="overlayedImage"
                 src={project.img}
