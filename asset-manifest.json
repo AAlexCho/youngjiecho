@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/youngjiecho/static/css/main.67f0f096.chunk.css",
-    "main.js": "/youngjiecho/static/js/main.6cda3359.chunk.js",
-    "main.js.map": "/youngjiecho/static/js/main.6cda3359.chunk.js.map",
+    "main.css": "/youngjiecho/static/css/main.6014aec0.chunk.css",
+    "main.js": "/youngjiecho/static/js/main.7e1e7938.chunk.js",
+    "main.js.map": "/youngjiecho/static/js/main.7e1e7938.chunk.js.map",
     "runtime-main.js": "/youngjiecho/static/js/runtime-main.435314b9.js",
     "runtime-main.js.map": "/youngjiecho/static/js/runtime-main.435314b9.js.map",
     "static/js/2.1116010d.chunk.js": "/youngjiecho/static/js/2.1116010d.chunk.js",
     "static/js/2.1116010d.chunk.js.map": "/youngjiecho/static/js/2.1116010d.chunk.js.map",
     "index.html": "/youngjiecho/index.html",
-    "precache-manifest.1904b25d9049eafe285b8a0fdaebfd4d.js": "/youngjiecho/precache-manifest.1904b25d9049eafe285b8a0fdaebfd4d.js",
+    "precache-manifest.6bae38102b7b18dd841d5e7ecb15748c.js": "/youngjiecho/precache-manifest.6bae38102b7b18dd841d5e7ecb15748c.js",
     "service-worker.js": "/youngjiecho/service-worker.js",
-    "static/css/main.67f0f096.chunk.css.map": "/youngjiecho/static/css/main.67f0f096.chunk.css.map",
+    "static/css/main.6014aec0.chunk.css.map": "/youngjiecho/static/css/main.6014aec0.chunk.css.map",
     "static/js/2.1116010d.chunk.js.LICENSE.txt": "/youngjiecho/static/js/2.1116010d.chunk.js.LICENSE.txt",
     "static/media/Alex.png": "/youngjiecho/static/media/Alex.f41ee8d1.png",
     "static/media/YoungJieChoResume.docx": "/youngjiecho/static/media/YoungJieChoResume.93a76eb6.docx",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.435314b9.js",
     "static/js/2.1116010d.chunk.js",
-    "static/css/main.67f0f096.chunk.css",
-    "static/js/main.6cda3359.chunk.js"
+    "static/css/main.6014aec0.chunk.css",
+    "static/js/main.7e1e7938.chunk.js"
   ]
 }
