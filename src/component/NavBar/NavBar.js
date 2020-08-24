@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 import sun from "../../assets/sun.png";
 import moon from "../../assets/moon.png";
 import clickMe from "../../assets/clickMe.png";
-import Resume from "../../assets/YoungJieChoResume.docx";
+import Resume from "../../assets/YoungJieChoResume.pdf";
 import useWindowDimensions from "../useWindowDimensions";
 import { Sling as Hamburger } from "hamburger-react";
 import "./NavBar.scss";
 
 const NavBar = (props) => {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const [isOpen, setOpen] = useState(false);
   const scrollToTheElement = (target) => {
     let targ = document.getElementById(target);

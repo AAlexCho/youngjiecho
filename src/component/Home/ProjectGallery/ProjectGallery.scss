@@ -2,20 +2,28 @@
 
 .projectGalleryDay {
   background: $projectDay;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .projectGalleryNight {
   background: $projectNight;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .projectSection {
+  flex: 10;
   display: flex;
   flex-flow: row wrap;
   width: 80%;
-  margin: auto;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding-bottom: 15px;
 }
 .titleSection {
+  flex: 1;
   padding-top: 30px;
   padding-bottom: 30px;
   font-family: "Source Code Pro", monospace;

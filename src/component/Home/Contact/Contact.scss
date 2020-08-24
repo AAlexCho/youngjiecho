@@ -43,3 +43,20 @@
     }
   }
 }
+.contactTitleSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 52px;
+  text-align: center;
+  @media only screen and (max-width: 840px) {
+    font-size: 36px;
+  }
+  .titleNight {
+    color: $textNight;
+  }
+  .titleDay {
+    color: $textDay;
+  }
+}
