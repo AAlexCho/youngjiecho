@@ -37,7 +37,7 @@ const ProjectGallery = (props) => {
                 className="overlayedImage"
                 src={project.img}
                 alt=""
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", margin: "10px" }}
               />
             </a>
           )

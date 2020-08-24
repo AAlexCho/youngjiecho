@@ -21,8 +21,18 @@ const ProjectPage = (props) => {
             <div>|</div>
             <div>{data.location}</div>
           </div>
+          <div className="projectPageSmallTitle">
+            {data.keyWords.join(" / ")}
+          </div>
         </div>
-        <div className="projectPageDesc">description</div>
+
+        <div className="projectPageDesc">
+          <ul>
+            {data.explanations.map((desc) => (
+              <li>{desc}</li>
+            ))}
+          </ul>
+        </div>
         <div className="projectPageLinks">
           {Object.entries(data.links).map(([key, value]) => (
             <a target="_blank" rel="noopener noreferrer" href={value}>

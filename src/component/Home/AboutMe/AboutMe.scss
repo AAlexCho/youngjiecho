@@ -59,6 +59,9 @@
       font-size: 20px;
       margin-bottom: 20px;
       text-align: left;
+      @media only screen and (max-width: 840px) {
+        font-size: 18px;
+      }
       .aboutMeQ {
         font-weight: 400;
       }
@@ -100,7 +103,8 @@
     justify-content: center;
     align-items: center;
     img {
-      max-width: 80%;
+      max-height: 92vh;
+      margin-bottom: -5px;
       @media only screen and (max-width: 1100px) {
         max-width: 30%;
       }
