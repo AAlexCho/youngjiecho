@@ -5,7 +5,7 @@ import github from "../../../assets/github.png";
 import linkedin from "../../../assets/linkedin.png";
 import gmail from "../../../assets/gmail.png";
 import resume from "../../../assets/resume.png";
-import Resume from "../../../assets/YoungJieChoResume.pdf";
+import Resume from "../../../assets/AlexCho-Resume.pdf";
 
 const Contact = (props) => {
   return (
@@ -41,7 +41,7 @@ const Contact = (props) => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/youngjie-cho"
+          href="https://github.com/AAlexCho"
           className="contactIcon"
         >
           <img src={github} alt="" />

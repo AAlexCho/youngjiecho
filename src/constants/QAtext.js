@@ -1,7 +1,7 @@
 const QAtext = [
   {
-    question: "Wow that’s a weird name!",
-    answer: "Thanks! It’s pronounced like Young+G.",
+    question: "Hey!",
+    answer: "Hello!",
   },
   {
     question: "So what do you do?",
@@ -10,8 +10,7 @@ const QAtext = [
   },
   {
     question: "Are you open to job opportunities?",
-    answer:
-      "Yes! Currently looking for full-time opportunities starting from summer 2021.",
+    answer: "Yes! Contact me please.",
   },
   {
     question:

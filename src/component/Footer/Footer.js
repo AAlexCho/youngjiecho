@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="copyright">
-        Copyright 2020. Young Jie Cho. All rights reserved.
+        Copyright 2020-2021. Alex Cho. All rights reserved.
       </div>
     </div>
   );
