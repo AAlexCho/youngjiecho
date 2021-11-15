@@ -6,7 +6,7 @@ import github from "../../../assets/github.png";
 import linkedin from "../../../assets/linkedin.png";
 import gmail from "../../../assets/gmail.png";
 import resume from "../../../assets/resume.png";
-import Resume from "../../../assets/YoungJieChoResume.pdf";
+import Resume from "../../../assets/AlexCho-Resume.pdf";
 import RandomPhoto from "./RandomPhoto";
 
 const AboutMe = (props) => {
@@ -25,7 +25,7 @@ const AboutMe = (props) => {
               👋
             </span>
           </div>
-          <div className="aboutMeTitle2">I'm Youngjie!</div>
+          <div className="aboutMeTitle2">I'm Alex!</div>
         </div>
         <div className="aboutMeQASection">
           {QAtext.map((qa, index) => (
@@ -42,7 +42,7 @@ const AboutMe = (props) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/youngjie-cho"
+            href="https://github.com/AAlexCho"
             className="aboutMeIcon"
           >
             <img src={github} alt="" />

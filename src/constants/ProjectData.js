@@ -8,7 +8,7 @@ const ProjectData = [
       "Quiz Application": "https://algocarelab.com/quiz/1",
     },
     keyWords: ["React", "React-Redux", "GraphQL", "Apollo", "Django"],
-    img: "https://i.imgur.com/mW7A0ex.png",
+    img: "https://i.imgur.com/94lJlel.png",
     explanations: [
       "Created and deployed the company website in production while working 40 hours a week",
       "Implemented the responsive front end of Medical Quiz Web Application in React, React-Redux, GraphQL while consulting UI designer and Back-End developer twice a week",
@@ -21,9 +21,8 @@ const ProjectData = [
     location: "Seoul, South Korea",
     date: "August 2020",
     links: {
-      "you're already here though":
-        "https://youngjie-cho.github.io/youngjiecho/",
-      GitHub: "https://github.com/youngjie-cho/youngjiecho",
+      "you're already here though": "https://aalexcho.github.io/youngjiecho/",
+      GitHub: "https://github.com/AAlexCho/youngjiecho",
       Figma:
         "https://www.figma.com/proto/wGx1ID4SSzxkHeiUZpGt1O/Portfolio?node-id=1%3A2&scaling=scale-down",
     },
@@ -43,7 +42,7 @@ const ProjectData = [
     date: "January—April 2020",
     links: {
       PlayGame: "https://connect.unity.com/mg/other/themoon-0",
-      GitHub: "https://github.com/youngjie-cho/theMoon",
+      GitHub: "https://github.com/AAlexCho/theMoon",
       YouTube: "https://www.youtube.com/watch?v=REGHSmB2qJo",
       ArtWorks: "https://i.imgur.com/xRraD2H.png",
     },

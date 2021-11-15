@@ -3,7 +3,7 @@ import "./ProjectGallery.scss";
 import ProjectData from "../../../constants/ProjectData";
 import ReactHoverObserver from "react-hover-observer";
 import ProjectElement from "./ProjectElement";
-import Resume from "../../../assets/YoungJieChoResume.pdf";
+import Resume from "../../../assets/AlexCho-Resume.pdf";
 
 const ProjectGallery = (props) => {
   return (
