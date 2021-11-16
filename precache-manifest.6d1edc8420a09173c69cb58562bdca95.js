@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e81d15074cfdb1b96cad29c669af6e2",
+    "revision": "4e85dc829d523fd5b734960b225760dc",
     "url": "/youngjiecho/index.html"
   },
   {
-    "revision": "9de7502e1e2694e00a64",
+    "revision": "25f568ebae5ba802a79a",
     "url": "/youngjiecho/static/css/main.febf952c.chunk.css"
   },
   {
-    "revision": "3b2281b238fcc0061047",
-    "url": "/youngjiecho/static/js/2.c4a86c70.chunk.js"
+    "revision": "9150d8def33066e32abc",
+    "url": "/youngjiecho/static/js/2.3919c457.chunk.js"
   },
   {
     "revision": "b882a56398ffd5f772193e17a68e4396",
-    "url": "/youngjiecho/static/js/2.c4a86c70.chunk.js.LICENSE.txt"
+    "url": "/youngjiecho/static/js/2.3919c457.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9de7502e1e2694e00a64",
-    "url": "/youngjiecho/static/js/main.3c72b96c.chunk.js"
+    "revision": "25f568ebae5ba802a79a",
+    "url": "/youngjiecho/static/js/main.dc5e4a6a.chunk.js"
   },
   {
     "revision": "a6f09d8ea53c641fcb81",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youngjiecho/static/media/Alex.f41ee8d1.png"
   },
   {
-    "revision": "64bf28a6e90223bde11b2150cd50fdb1",
-    "url": "/youngjiecho/static/media/YoungJieChoResume.64bf28a6.pdf"
+    "revision": "f189d35a7e465c5312c3ab199d817f0a",
+    "url": "/youngjiecho/static/media/AlexCho-Resume.f189d35a.pdf"
   },
   {
     "revision": "8bebc3374b48d30b9725388fd4859320",
